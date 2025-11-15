@@ -39,6 +39,14 @@ body {
   flex-direction: column;
   display: flex;
   }
+  .bannerTopİmage{
+    width: 100%;
+    height: 289px;      
+    box-sizing: border-box;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    }
   .bannerBottom{
     width: 100%;
     height: 1672px;      
@@ -137,3 +145,130 @@ body {
               flex-direction: column;
               border-radius: 8px;
             } 
+            .products{
+              width: 100%;
+              min-height: 1632px;      
+              box-sizing: border-box;
+              align-items: center;
+              flex-direction: column;
+              display: flex;
+              } 
+              .productsTop{
+                width: 100%;
+                height: 32px;    
+                box-sizing: border-box;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: row;
+                margin-top: 56px;
+                margin-left: 16px;
+                } 
+                .productsBottom{
+                  width: 100%;
+                  min-height: 1456px;      
+                  box-sizing: border-box;
+                  align-items: center;
+                  flex-direction: row;
+                  display: flex;
+                  flex-wrap: wrap;
+                  justify-content: center;
+                  }
+                  .productItems{
+                    width: 100%;
+                    height: 352px;      
+                    box-sizing: border-box;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 16px;
+                    
+                    }
+                    .productItemİphone14Pro{
+                      width: 100%;
+                      height: 352px;      
+                      box-sizing: border-box;
+                      display: flex;
+                      flex-direction: column;
+                      align-items: center;
+                      justify-content: center;
+                      background-color: #F6F6F6;
+                      border-radius: 8px;
+                      }
+.bigBanner{
+  width: 100%;
+  height: 712px;      
+  box-sizing: border-box;
+  position: relative;
+  background-color: #F9F9F9;
+}
+  .Halfimage{
+   width: 339px;
+  height: 334px;
+  position: absolute;   
+  top: 0;               
+  right: 0;  
+    }
+    .bigBannerText{
+      width: 100%;
+      height: 208px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 392px;
+    }
+    .Discount{
+      width: 100%;
+      height: 896px;      
+      box-sizing: border-box;
+      align-items: center;
+     flex-direction: column;
+     display: flex;
+    }
+    .DiscountText{
+      width: 100%;
+      height: 32px;
+      box-sizing: border-box;
+      margin-top: 56px;
+      margin-left: 16px;
+    }
+    .Discountİtems{
+                  width: 100%;
+                  height: 720px;      
+                  box-sizing: border-box;
+                  align-items: center;
+                  flex-direction: row;
+                  display: flex;
+                  flex-wrap: wrap;
+                  justify-content: center;
+                  margin-top: 32px;
+                                   }
+                    .DiscountitemTop{
+                    width: 100%;
+                    height: 352px;      
+                    box-sizing: border-box;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 16px;
+                    }
+                    
+                    
+    
+                .DiscountİtemTopİphoneGold{
+                width: 100%;
+                height: 352px;      
+                box-sizing: border-box;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                background-color: #F6F6F6;
+                border-radius: 8px;
+                
+    }
