@@ -23,6 +23,24 @@ body {
   justify-content: space-between;  
   box-sizing: border-box;
 }
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+.nav-burger {
+  display: block;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 4px;
+}
+
+.nav-search,
+.nav-links,
+.nav-icons {
+  display: none;
+}
+
 .banner{
   width: 100%;
   height: 769px;      
@@ -46,6 +64,7 @@ body {
     align-items: center;
     flex-direction: column;
     display: flex;
+    margin-top: 28px;
     }
   .bannerBottom{
     width: 100%;
@@ -258,8 +277,6 @@ body {
                     gap: 16px;
                     }
                     
-                    
-    
                 .DiscountİtemTopİphoneGold{
                 width: 100%;
                 height: 352px;      
@@ -320,4 +337,117 @@ body {
     align-items: center;
     justify-content: space-between;
     margin-top: 30px;
+}
+@media (min-width: 1024px) {
+  
+  .banner {
+    display: flex;
+    align-items: center;          
+    justify-content: space-between;
+    padding: 0 120px;            
+    height: 769px;                
+    box-sizing: border-box;
+  }
+
+  .bannerTop {
+    width: 50%;
+    height: 100%;
+    margin-top: 0;                
+    display: flex;
+    flex-direction: column;
+    justify-content: center;      
+    align-items: flex-start;     
+  }
+
+  .bannerTopİmage {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;   
+    align-items: flex-end; 
+    margin-top: 0;      
+  }
+
+  .bannerTopİmage img {
+    width: auto;                 
+    height: 732px;
+    margin-right: -120px;        
+  }
+
+  .bannerTop {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .bannerTop h1,
+  .bannerTop h2 {
+    display: inline-block;
+    margin: 0;
+    line-height: 1.1;
+    white-space: nowrap;
+  }
+.bannerTop h2 {
+    margin-left: 16px;
+  }
+.bannerTop h1 {
+    font-size: 96px !important;
+  }
+.bannerTop h2 {
+    font-size: 96px !important;
+    font-weight: 700; 
+  }
+.navbar {
+    padding: 0 80px;
+    gap: 32px;
+  }
+  .nav-burger {
+    display: none;
+  }
+
+  .nav-search,
+  .nav-links,
+  .nav-icons {
+    display: flex;
+  }
+.nav-search {
+    flex: 1;
+  }
+.nav-search input {
+    width: 100%;
+    height: 48px;
+    border-radius: 24px;
+    border: none;
+    background: #f3f3f3;
+    padding: 0 16px;
+    font-size: 16px;
+    outline: none;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 32px;
+    margin-left: 32px;
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #777;
+  }
+.nav-links a.active {
+    font-weight: 600;
+    color: #000;
+    border-bottom: 2px solid #000;
+    padding-bottom: 4px;
+  }
+.nav-icons {
+    display: flex;
+    gap: 16px;
+    margin-left: 32px;
+    font-size: 22px;
+    align-items: center;
+  }
 }
