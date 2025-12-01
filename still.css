@@ -468,6 +468,197 @@ border-radius: 8px;
                       }
 
 
+.productPageFiltersMobileInput{
+    width: 343px ;
+    height: 32px ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 16px;
+
+}
+.Breadcrumbs{
+    width: 1120px;
+    height: 104px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+}
+.productPageFilters{
+    width: 341px ;
+    height: 1224px ;
+    
+    flex-direction: column;
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+}
+.productPageFiltersTop{
+    width: 341px ;
+    height: 172px ;
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+    
+}
+.productPageFiltersTopPrice 
+{
+    width: 341px ;
+    height: 48px ;
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    
+}
+.productPageFiltersBrands{
+    width: 341px ;
+    height: 408px ;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+}
+.productPageFiltersBrandsTop{
+    width: 341px ;
+    height: 48px ;
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+  .productPageFiltersBrandsBottom{
+    width: 341px ;
+    height: 336px ;
+  
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+    align-items: flex-start;
+
+  }
+.brandSearch{
+  width: 90%;
+  margin-bottom: 8px;
+}
+
+.brandSearch input{
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: none;
+  background: #f1f1f1;
+  outline: none;
+  font-size: 14px;
+}
+
+
+.brandList{
+  list-style: none;
+  padding: 0;
+  max-height: 260px;      
+  overflow-y: auto;
+}
+
+
+.brandItem{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 14px;
+  padding: 4px 0;
+  cursor: pointer;
+}
+
+
+.brandItem input[type="checkbox"]{
+  display: none;
+}
+
+.brandCheck{
+  width: 18px;
+  height: 18px;
+  border-radius: 6px;
+  border: 1px solid #d0d0d0;
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 6px;
+  font-size: 12px;
+  color: white;
+}
+
+
+.brandName{
+  flex: 1;
+}
+
+.brandCount{
+  font-size: 12px;
+  color: #888;
+}
+
+
+.brandItem input[type="checkbox"]:checked + .brandCheck{
+  background: #000;
+  border-color: #000;
+}
+
+.brandItem input[type="checkbox"]:checked + .brandCheck::before{
+  content: "✔";
+}
+.productPageFiltersBuiltMemory{
+    width: 341px ;
+    height: 328px ;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+}
+.productPageFiltersBuiltMemoryTop{
+    width: 341px ;
+    height: 48px ;
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.productPageFiltersBuiltMemoryBottom{
+    width: 341px ;
+    height: 264px ;
+    
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+    align-items: flex-start;
+
+  }
+  .productPageFiltersBottom{
+    width: 341px ;
+    height: 56px ;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+  }
+  .productPageFiltersBottomText{
+    width: 341px;
+    height: 48px;
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+  }
+  
+
 @media (min-width: 1024px) {
   
   .banner {
