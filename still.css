@@ -686,7 +686,84 @@ border-radius: 8px;
     display: flex;
     justify-content: space-between;
   }
+  .productPageDetailsMobileText{
+    width: 341px ;
+    height: 152px ;
+    
+    display: flex;
+    margin-top: 56px;
+    flex-direction: column;
+    overflow-wrap: break-word
+  
+  }
+  .productPageDetailsMobileText2{
+    width: 341px ;
+    height: 48px ;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+  }
+  .productPageDetailsMobileinfo{
+    width: 341px ;
+    height: 432px ;
+    
+    flex-direction: column;
+    display: flex;
+    margin-top: 16px;
+    gap: 24px;
+    
+  }
+.productPageDetailsMobileinfoColor{
+    width: 100% ;
+    height: 32px ;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  .productPageDetailsMobileinfoMemory{
+    width: 100% ;
+    height: 48px ;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    margin-top: 8px
+    
+  }
+  .productPageDetailsMobileDetails{
+    width: 100% ;
+    height: 208px ;
+   
+    margin-top: 8px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    
 
+  }
+  .productPageDetailsMobileDetails1{
+    width: 166.5px ;
+    height: 64px ;
+   
+    border-radius: 7px;
+    background-color: #F4F4F4;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+  .productPageDetailsMobileDetails1Text{
+    width: 102.5px ;
+    height: 32px ;
+    margin-top: 16px;
+    flex-direction: column;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+  }
 @media (min-width: 1024px) {
   
   .banner {
