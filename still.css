@@ -689,6 +689,16 @@ border-radius: 8px;
     display: flex;
     justify-content: space-between;
   }
+  .productPageDetailsMobileContent{
+    width: 341px ;
+    height: auto ;
+    
+    flex-direction: column;
+    display: flex;
+    margin-top: 32px;
+    
+  }
+  
   .productPageDetailsMobileText{
     width: 341px ;
     height: 152px ;
@@ -786,13 +796,9 @@ border-radius: 8px;
     justify-content: center;
     gap: 16px;
   }
-  .productPageDetailsMobileDetailContent{
-    width: 100% ;
-    flex-direction: column;
-    display: flex;
-    align-items: center;
+  
     
-  }
+  
   .productPageDetailsMobileDetailContentText{
     width: 295px ;
     margin-top: 32px;
@@ -1370,4 +1376,319 @@ border-radius: 8px;
 .Breadcrumbs{
     display: flex;
 }
+ .productPageFiltersMobileTop{
+    width: 536px;
+    height: 516px;
+    margin-top: 190px;    
+    margin-left: 160px;          
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 32px;
+  }
+.productPageDetailsMobileText{
+    width: 536px ;
+    height: auto ;
+    margin-top: 80px;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 16px;
+  }
+  
+  .imageFilters{
+    width: 74px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    order: -1;         
+  }
+
+  .imageFilters img{
+    width: 74px !important;
+    height: 66px !important;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+.productPageDetailsMobileMedia{
+    width: 100%;
+    max-width: 1120px;         
+    margin: 0 auto;            
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-start;
+    gap: 48px;                 
+  }
+.productPageDetailsMobileText{
+    width: 560px ;
+    height: auto ;
+    margin-top: 80px;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 16px;
+  }
+  .productPageDetailsMobileinfoMemory{
+    width: 560px ;
+    height: auto ;
+    margin-top: 16px;
+    flex-direction: row;
+    display: flex;
+    align-items: flex-start;
+    
+    gap: 16px;
+  }
+.productPageDetailsMobileDetails{
+    width: 560px ;
+    height: auto ;
+    margin-top: 16px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
 }
+.productPageDetailsMobileButtons{
+    width: 560px ;
+    height: 48px ;
+    margin-top: 32px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+  }
+  .productPageDetailsMobileDetailIcon{
+    width: 100%;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    gap: 48px;                 
+    margin-top: 48px;
+  }
+
+.productPageDetailsMobileContent{
+    width: 560px ;
+    height: 672px ;
+    margin-top: 112px;
+    flex-direction: column;
+    display: flex;
+    
+    
+}
+.productPageDetailsMobileDetailContentMedia{
+    width: 100%;
+    max-width: 1120px;
+    margin-top: 192px;
+    padding: 88px 160px;
+    border-radius: 24px;
+    background: #fff;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    height: auto;        
+    min-height: auto;
+  }
+
+  
+  .productPageDetailsMobileDetailContentMedia > h1{
+    margin-top: 0 !important;
+  }
+  .productPageDetailsMobileDetailContentBottom > h1{
+    margin-top: 0 !important;
+  }
+
+  
+  .productPageDetailsMobileDetailContentText,
+  .productPageDetailsMobileDetailContentScreen,
+  .productPageDetailsMobileDetailContentScreenText,
+  .productPageDetailsMobileDetailContentBottom,
+  .productPageDetailsMobileDetailContentBottomText{
+    width: 100% !important;
+    max-width: none !important;
+    margin-top: 0 !important;
+  }
+
+  
+  .productPageDetailsMobileDetailContentScreenText1,
+  .productPageDetailsMobileDetailContentBottomText1{
+    width: 100% !important;
+    height: auto;                 
+    padding: 16px 0;
+    border-bottom: 1px solid #eee;
+    align-items: flex-start;     
+  }
+
+  
+  .productPageDetailsMobileDetailContentScreenText1Extra{
+    width: auto !important;
+    height: auto !important;
+    margin-top: 0 !important;     
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 4px;
+  }
+  
+  .productPageFiltersMobileRewiewsMedia{
+    width: 100%;
+    max-width: 1120px;
+    margin: 0px auto 0;
+  }
+.productPageFiltersMobileRewiews{
+    width: 100%;
+    padding: 32px;
+    border-radius: 24px;
+    
+
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    grid-template-areas:
+      "title title"
+      "rate  bars"
+      "comment comment";
+    gap: 24px 48px;
+    box-sizing: border-box;
+  }
+
+  .productPageFiltersMobileRewiews > h1{
+    grid-area: title;
+    margin: 0;
+  }
+
+  .productPageFiltersMobileRewiewsRating{
+    grid-area: rate;
+    align-items: flex-start;
+  }
+
+  .productPageFiltersMobileRewiewsSchedule{
+    grid-area: bars;
+    gap: 16px;
+  }
+
+  .productPageFiltersMobileRewiewsSchedule1{
+    width: 100%;
+  }
+
+ 
+  .review-comment-box{
+    grid-area: comment;
+    width: 100%;
+  }
+
+  .review-comment-box textarea{
+    width: 100%;
+    height: 56px;
+    padding: 16px;
+    border-radius: 12px;
+    box-sizing: border-box;
+  }
+
+  
+  .reviewAndComments{
+    width: 100%;
+    max-width: 1120px;
+    margin: 24px auto 0;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+ 
+  .reviewAndCommentsGrace,
+  .reviewAndCommentsRonald,
+  .reviewAndCommentsDarcy,
+  .reviewAndCommentsJohn{
+    width: 100%;
+    padding: 24px;
+
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 16px;
+    box-sizing: border-box;
+  }
+
+  
+  .reviewAndCommentsGrace img,
+  .reviewAndCommentsRonald img,
+  .reviewAndCommentsDarcy img,
+  .reviewAndCommentsJohn img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin: 0 !important;
+  }
+
+ .reviewAndCommentsGraceText{
+    flex: 1;
+    margin: 0 !important;
+  }
+.reviewAndCommentsJohn{
+    display: none !important;
+  }
+ 
+.relatedProducts{
+    width: 100%;
+    max-width: 1120px;
+    margin: 48px auto 0;   
+    box-sizing: border-box;
+  }
+
+  .relatedProducts > h1{
+    
+    margin: 0 0 32px 0 !important;
+    text-align: left;   
+  }
+
+  .productPageFiltersMobileBottom{
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 240px);
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .productPageFiltersMobileBottomTop{
+    display: contents;
+  }
+
+  .productPageFiltersMobileBottomTop1{
+    width: 240px !important;
+    height: auto !important;     
+    min-height: 208px;          
+    padding: 24px 16px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; 
+    gap: 12px;
+  }
+
+  .productPageFiltersMobileBottomTop1 button{
+    margin-top: auto;
+  }
+}
+
+
+
+
+
+
+
+
+
