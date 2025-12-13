@@ -1040,6 +1040,152 @@ border-radius: 8px;
                 background-color: #F6F6F6;
                 border-radius: 8px;
   }
+.shoppingCardMobile{
+    width: 341px ;
+    height: 656px ;
+    margin-top: 40px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    border-radius: 8px;
+    
+  }
+  .shopingCardProduct{
+    width: 341px ;
+    height: 152px ;
+     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+  }
+  .shopingCardProductDetails{
+    width: 236px ;
+    height: 120px ;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    
+  }
+    .shopingCardProductDetailsTitle{
+      width: 236px ;
+      height: 80px ;
+      display: flex;
+      flex-direction: column;
+      
+      
+    }
+    .shopingCardProductDetailsQuantity{
+      width: 238px ;
+      height: 32px ;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 8px;
+    }
+    .orderSumarry{
+      width: 341px ;
+      height: 656px ;
+      
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-top: 40px;
+      gap: 40px;
+    }
+    .orderSumarryDetails{
+       width: 309px;
+  height: 488px;
+  display: flex;
+  flex-direction: column;
+margin-left: 16px;
+  gap: 24px; 
+    }
+    .orderSumarryFields{
+      width: 309px ;
+      height: 192px ;
+      
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+     gap: 24px;
+    }
+    .promoField {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.labelField {
+  width: 309px;
+  min-height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  border: 0.5px solid #9F9F9F;
+  border-radius: 7px;
+  box-sizing: border-box;
+  background: #fff;
+}
+
+.fieldInput {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 14px;
+  background: transparent;
+  min-width: 0;
+}
+
+.applyBtn {
+  height: 32px;
+  padding: 0 16px;
+  border-radius: 7px;
+  
+  background: #fff;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.orderSumarryTotal{
+      width: 309px ;
+      height: 168px ;
+      
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      box-sizing: border-box;
+      margin-bottom: 0px;
+    }
+    .totalRow{
+      width: 309px ;
+      height: 32px ;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .checkoutBtn{
+  width: 309px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 16px 56px;
+  border: none;
+  border-radius: 6px;
+  background: #000;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
 
 
 
@@ -1682,8 +1828,21 @@ border-radius: 8px;
   .productPageFiltersMobileBottomTop1 button{
     margin-top: auto;
   }
+         
+  
+  .shoppingCardMobileMedia{
+    gap:48px;
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
 }
-
+.shoppingCardMobile{
+    width: 536px;
+    max-width: 590px;
+    gap:40px   
+    
+}
+}
 
 
 
