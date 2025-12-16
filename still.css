@@ -1,3 +1,13 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
+html, body{
+  width: 100%;
+  overflow-x: hidden; 
+}
 
 body { 
   margin: 0;
@@ -1186,6 +1196,177 @@ margin-left: 16px;
   font-weight: 500;
   cursor: pointer;
 }
+.step1{
+  width: 100%;
+  height: 104px;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  gap: 24px;
+  padding: 32px 16px;
+  margin-left: 0;          
+  box-sizing: border-box;
+}
+.step1adress{
+  width: 100%;
+  height: 40px;
+  
+  display: flex;
+  align-items: center;
+ 
+  gap: 8px;
+}
+.step1adress-text{
+  
+  height: 40px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+.step1Content{
+  width: 375px;              
+  height: 768px;         
+  margin-top: 80px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  
+}
+.step1ContentBlock{
+  width: 343px;
+  height: 568px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  
+  
+}
+
+.step1ContentBlockMethods{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 0;
+}
+.step1ContentBlockMethodsTop{
+  border: 1px solid #d7d7db;
+  border-radius: 11px;
+  padding: 24px;
+   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+cursor: pointer;
+  background: #fff;
+}
+.step1ContentBlockMethodsTop input[type="radio"]{
+  display: none;
+}
+.radio24{
+  width: 24px;
+  height: 24px;
+  border: 2px solid #111;
+  border-radius: 50%;
+  position: relative;
+  flex: 0 0 24px;
+  margin-top: 2px;
+}
+
+.radio24::after{
+  content: "";
+  width: 12px;
+  height: 12px;
+  background: #111;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  opacity: 0;
+}
+.step1ContentBlockMethodsTopText{
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.step1ContentBlockMethodsTopText p{
+  margin: 0;
+}
+.methodPrice{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.methodSub{
+  font-size: 16px;
+  color: #666;
+  line-height: 1.35;
+}
+.methodRight{
+  font-size: 16px;
+  color: #222;
+  white-space: nowrap;
+  margin-top: 6px;
+}
+.methodSelect{
+  color: #8a8a92;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.chev{ font-size: 18px; }
+.step1ContentBlockMethodsTop:has(input[type="radio"]:checked){
+  border-color: #111;
+}
+.step1ContentBlockMethodsTop input[type="radio"]:checked + .radio24::after{
+  opacity: 1;
+}
+
+.step1ContentButtons{
+  width: 343px;                 
+  display: flex;
+  flex-direction: row;
+  gap: 24px;                    
+}
+
+.step1ContentButtonsBack,
+.step1ContentButtonsNext{
+  width: 159px;                     
+  height: 64px;                 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+         
+border: 1px solid #d7d7db;
+  border-radius: 6px;
+  background: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+.step1ContentButtonsNext{
+  border-color: #111;
+  background: #111;
+  color: #fff;
+}
+
+.stepOnlyDesktop{
+  display: none;
+}
+
+
+
+
+
+
+
 
 
 
@@ -1507,7 +1688,7 @@ margin-left: 16px;
     gap: 16px;
   }
   .ProductResultDesktop {
-    width: 100½;
+    width: 100%;
     display: flex;
     align-items: space-between;
     flex-direction: row;
@@ -1842,7 +2023,96 @@ margin-left: 16px;
     gap:40px   
     
 }
+.stepOnlyDesktop{
+    display: flex;
 }
+.step1{
+    width: 100%;
+    max-width: 1120px;
+    margin: 192px auto 0;
+    display: flex;
+    align-items: space-between;
+  }
+
+.step1Content{
+    width: 100%;
+    max-width: 1440px;
+    height: auto;              
+    margin: 0 auto;            
+    margin-top: 0;             
+    padding: 48px 160px;      
+    box-sizing: border-box;
+    background: #fff;
+    
+  }
+
+  
+  .step1ContentBlock{
+    width: 100%;
+    max-width: none;
+    height: auto;
+  }
+
+  
+  .step1ContentBlockMethodsTop{
+    width: 100%;
+    height: 72px;
+    padding: 24px;
+  }
+
+ 
+  .step1ContentBlockMethodsTopText{
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .methodPrice{
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .methodSub{
+    font-size: 14px;
+    color: #6f6f6f;
+  }
+
+  .methodRight{
+    font-size: 14px;
+    color: #6f6f6f;
+  }
+
+  
+  .step1ContentButtons{
+    width: 100%;
+    margin-top: 32px;
+    justify-content: flex-end;
+  }
+
+  .step1ContentButtonsBack,
+  .step1ContentButtonsNext{
+    width: 160px;
+    height: 64px;
+  }
+  .step1{
+    margin: 48px auto 0;     
+    padding: 32px 160px;    
+    max-width: 1440px;       
+    height: auto;
+  }
+
+  
+  .step1Content{
+    margin-top: 0;           
+  }
+  .step1ContentButtons{
+    margin-top: 224px;   
+  }
+}
+
+
+
+
 
 
 
