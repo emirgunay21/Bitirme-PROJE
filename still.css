@@ -1430,11 +1430,106 @@ border: 1px solid #d7d7db;
   gap: 24px;
   margin-left: auto;
 }
+.Step3Card{
+  width: 100%;                 
+  min-height: 800px;                 
+ 
+  gap: 48px;
+  padding: 24px 16px 72px 16px;
+}
+.Step3Card-Details{
+  width: 100%;  
+              
+  min-height: 518px;                 
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.Step3Card-Left-Options{
+  display: flex;
+  gap: 24px;
+  border-bottom: 1px solid #eee;
+  justify-content: space-between
+}
 
 
+.Step3Card-Left-Options input{
+  display: none;
+}
 
+.paymentTab{
+  cursor: pointer;
+  padding: 12px 0;
+  font-size: 14px;
+  color: #777;
+  position: relative;
+}
+.Step3Card-Left-Options input:checked + .paymentTab{
+  color: #111;
+  font-weight: 600;
+}
 
+.Step3Card-Left-Options input:checked + .paymentTab::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  height: 2px;
+  background: #111;
+}
+.Step3CardPlaceHolders{
+  width: 100%;                 
+  min-height: 176px;                 
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.Step3CardPlaceHolders{
+  width: 100%;
+  max-width: 341px;      
+  display: flex;
+  flex-direction: column;
+  gap: 16px;             
+}
 
+.Step3Card-input{
+  width: 100%;           
+  height: 48px;         
+  border: 0.5px solid #d0d0d0;  
+  border-radius: 7px;    
+  padding: 12px 16px;    
+  outline: none;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.Step3Card-small-inputs{
+  width: 100%;
+  display: flex;
+  gap: 16px;
+}
+
+.Step3Card-input-small{
+  flex: 1;               
+  height: 48px;
+  border: 0.5px solid #d0d0d0;
+  border-radius: 7px;
+  padding: 12px 16px;
+  outline: none;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.Step3CardcheckBox{
+  width: 100%;                 
+  height: 24px;                 
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 8px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
 
 
 
