@@ -78,7 +78,7 @@ body {
     }
   .bannerBottom{
     width: 100%;
-    height: 1672px;      
+    height: auto;      
     box-sizing: border-box;
     align-items: center;
     flex-direction: column;
@@ -86,7 +86,7 @@ body {
     }
     .bannerBottomAirPodsMax{
       width: 100%;
-      height: 376px;      
+      min-height: 376px;      
       box-sizing: border-box;
       align-items: center;
       flex-direction: column;
@@ -94,7 +94,7 @@ body {
       }
       .bannerAppleVisionPro{
         width: 100%;
-        height: 376px;      
+        min-height: 376px;      
         box-sizing: border-box;
         align-items: center;
         flex-direction: column;
@@ -103,7 +103,7 @@ body {
         }
         .bannerPlaystation5{
           width: 100%;
-          height: 424px;
+          min-height: 424px;
           text-align: center;     
           box-sizing: border-box;
           align-items: center;
@@ -115,7 +115,7 @@ body {
           }
           .MacbookAir{
            width: 100%;
-           height: 504px;
+           max-height: 504px;
            text-align: center;      
            box-sizing: border-box;
            align-items: center;
@@ -133,6 +133,7 @@ body {
            flex-direction: column;
            display: flex;
            padding: 0 16px;
+           margin-top: 144px;
            }
             .CategoryTop{
             width: 100%;  
@@ -287,7 +288,7 @@ body {
      margin-top: 0;
   padding-top: 0;
     }
-    .DiscountText{
+    .Discount h1{
       width: 100%;
       height: 32px;
       box-sizing: border-box;
@@ -338,6 +339,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
     }
     .banner2Text{
       width: 100%;
@@ -1532,11 +1534,43 @@ border: 1px solid #d7d7db;
 }
 
 
+#productsGrid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  padding: 16px;
+  margin-top: 120px
+}
 
 
+#discountGrid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-top: 118px;
+}
 
+#bannerBottomGrid{
+  display: grid;
+  gap: 16px;
+}
 
+#bannerBottomGrid{
+  grid-template-columns: 1fr;
+}
+#CategoriesGrid{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
 
+#bigBannerWrapperGrid{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
 
 
 
@@ -2294,7 +2328,70 @@ border: 1px solid #d7d7db;
 .step1SelectAdressBlockHome{
     width: 100%;
   }
+
+
+#productsGrid{
+    grid-template-columns: repeat(4, 1fr);
+  }
+#discountGrid{ grid-template-columns: repeat(4, 1fr);
+
 }
+#bannerBottomGrid{
+   display: flex;
+   flex-direction: column;
+  }
+
+
+.bannerBottomCard{
+  padding: 16px;
+  border-radius: 12px;
+}
+
+.bannerBottomCard img{
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  display: block;
+}
+#CategoriesGrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+  #bigBannerWrapperGrid .bigBanner-desktop-only{ display: none !important; }
+  #bigBannerWrapperGrid .bigBanner-mobile-visible{ display: flex !important; }
+
+#bigBannerWrapperGrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  #bigBannerWrapperGrid .bigBanner-desktop-only{ display: flex !important; }
+  #bigBannerWrapperGrid .bigBanner-mobile-visible{ display: none !important; }
+
+#bigBannerWrapperGrid{
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   
